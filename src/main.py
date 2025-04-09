@@ -1,7 +1,7 @@
 import uvicorn
 from fastapi import FastAPI
 
-from src.settings import settings
+from .settings import settings
 from .routers import router
 
 app = FastAPI(debug=False)
